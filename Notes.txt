@@ -1,0 +1,5 @@
+winget install -e --id Astronomer.Astro
+
+docker pull bitnami/airflow
+
+--$env:path.split(";")

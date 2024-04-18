@@ -1,5 +1,6 @@
-winget install -e --id Astronomer.Astro
 
-docker pull bitnami/airflow
+pip install astro-cli
 
---$env:path.split(";")
+astro dev init
+
+astro dev start
